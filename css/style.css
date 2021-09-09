@@ -1,13 +1,18 @@
 
 /* шапка сайта */
+
+.head {
+position: absolute;
+width: 1600px;
+height: 80px;
+
+}
+
 .logo {
 color: #212121;
 
 font-family: Raleway;
-font-style: normal;
-font-weight: bold;
 font-size: 26px;
-line-height: 31px;
 letter-spacing: 0.03em;
 
 }
@@ -16,8 +21,16 @@ letter-spacing: 0.03em;
 }
 
 /* навигация сайта */
+
+.site-nav {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
 .site-nav .link {
     color: var(--title-text-color) ;
+
 }
 
 .site-nav .link:hover,
@@ -29,23 +42,118 @@ letter-spacing: 0.03em;
    color: #2196F3;
 }
 
-/* Герой */
-.button {
-color: #FFFFFF;
-background-color: var(--accent-color);
+.nav-studio{
+position: absolute;
+width: 49px;
+height: 16px;
+left: 453px;
+top: 32px;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
 }
+
+.nav-portfolio {
+    position: absolute;
+width: 77px;
+height: 16px;
+left: 552px;
+top: 32px;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+}
+
+.nav-contakt{
+    position: absolute;
+width: 68px;
+height: 16px;
+left: 679px;
+top: 32px;
+
+
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+
+.link-gmail{
+    position: absolute;
+width: 135px;
+height: 16px;
+left: 1078px;
+top: 32px;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+}
+
+.link-phone {
+    position: absolute;
+width: 122px;
+height: 16px;
+left: 1263px;
+top: 32px;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+}
+
+
+/* Герой */
+
+.section-hero {
+position: absolute;
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+background: var(--hero-color);
+}
+
+h1 {
+color: #FFFFFF;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.3;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+
+.btn {
+background-color: var(--accent-color);
+color: #FFFFFF;
+position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
+}
+
+
+
+
 
 
 /* Portfolio */
 
 
-.batton-portfolio {
+.btn-portfolio {
     color:var(--title-text-color);
     background-color: #F5F4FA;
 }
 
-.batton-portfolio:hover,
-.batton-portfolio:focus {
+.btn-portfolio:hover,
+.btn-portfolio:focus {
     color: #FFFFFF;
     background-color: #2196F3;
 }
