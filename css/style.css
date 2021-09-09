@@ -36,7 +36,8 @@ background-color: var(--accent-color);
     background-color: #F5F4FA;
 }
 
-.batton-portfolio:hover {
+.batton-portfolio:hover,
+.batton-portfolio:focus {
     color: #FFFFFF;
     background-color: #2196F3;
 }
