@@ -1,0 +1,72 @@
+:root {
+--primary-text-color:#757575;
+--title-text-color:#212121;
+--accent-color:#2196F3;
+--hero-color:#2F303A ;
+}
+
+
+body {
+color:#757575 ;
+background-color: #FFFFFF ;
+}
+
+ul {
+    list-style: none ;
+}
+
+.section-title,
+.comand-title,
+.skils-title
+ {
+    color:var(--title-text-color);
+}
+
+
+/* цвет основного текста #757575 */
+
+/* вторичный цвет текста #212121 */
+
+/* белый цвет #FFFFFF */
+
+/* акцент #2196F3 */
+
+/* цвет героя #2F303A */
+
+
+/* шапка сайта */
+.logo {
+color: #212121;
+}
+.logo-color {
+    color: #2196F3 ;
+}
+
+/* навигация сайта */
+.site-nav .link {
+    color: var(--title-text-color) ;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color:var(--accent-color);
+}
+
+/* Герой */
+.button {
+color: #FFFFFF;
+background-color: #2196F3;
+}
+
+
+/* Portfolio */
+
+
+.batton-portfolio {
+    color:var(--title-text-color);
+    background-color: #F5F4FA;
+}
+
+.section-portfolio .title {
+    color: var(--title-text-color);
+} 
