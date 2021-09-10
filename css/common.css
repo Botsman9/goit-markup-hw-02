@@ -14,6 +14,8 @@ font-family: Roboto, sans-serif;
 font-style: normal;
 }
 
+
+
 ul {
     list-style: none;
 }
@@ -28,7 +30,8 @@ a:hover{
 
 .section-title,
 .comand-title,
-.skils-title
+.skils-title,
+.img-title
  {
     color:var(--title-text-color);
 }
