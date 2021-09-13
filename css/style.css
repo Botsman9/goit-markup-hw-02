@@ -10,8 +10,9 @@ body {
 color:#757575 ;
 background-color: #FFFFFF ;
 
-font-family: Roboto, sans-serif;
+font-family: "Roboto", sans-serif;
 font-style: normal;
+font-weight: 500;
 }
 
 
@@ -187,12 +188,15 @@ color: #FFFFFF;
 
 .section-hero >button {
 background-color: var(--accent-color);
-color: #FFFFFF;
 position: absolute;
 width: 200px;
 height: 50px;
 left: 700px;
 top: 350px;
+font-family: Arial;
+font-size: 13.3333px;
+font-stretch: 100%;
+color: #FFFFFF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 
@@ -429,6 +433,11 @@ top: 60px;
 font-size: 26px;
 line-height: 1.2;
 letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.footer >a:hover {
+    color: var(--accent-color);
 }
 
 
@@ -455,6 +464,7 @@ font-style: normal;
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
+color:rgba(255, 255, 255, 0.6);
 }
 
 .footer-phone {
@@ -470,6 +480,7 @@ font-weight: normal;
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
+color:rgba(255, 255, 255, 0.6);
 }
 
 
