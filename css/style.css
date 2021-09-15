@@ -15,11 +15,6 @@ font-style: normal;
 font-weight: 500;
 }
 
-address {
-    font-style: normal;
-}
-
-
 
 ul {
     list-style: none;
@@ -296,6 +291,10 @@ color: #FFFFFF;
 
 .footer >a:hover {
     color: var(--accent-color);
+}
+
+address {
+    font-style: normal;
 }
 
 
